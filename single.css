@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+}
+#full{
+    background-color: #fff;
+    height: 550px;
+    width: 800px;  
+    box-shadow: 10px 9px 30px 7px rgba(54, 52, 52, 0.5); 
+    border-radius: 15px;
+    overflow: hidden;
+}
+#join{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 30px;
+}
+.firstRow{
+    height: 250px;
+    width: 800px;
+}
+#thirty{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1.2px;
+}
+#gain{
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+}
+#subscri{
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+    font-weight: 700;
+    height: 300px;
+    width: 400px;
+}
+#monthly{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1.2px;
+}
+#dolar{
+    color: hsl(218, 22%, 67%);
+}
+#nine{
+    color: hsl(204, 43%, 93%);
+    font-size: 30px;
+}
+#button{
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    color: hsl(204, 43%, 93%);
+}
+#button:hover{
+
+    background-color: hsl(179, 62%, 43%);
+    border: 1px solid hsl(204, 43%, 93%);
+}
+#us{
+    background-color:hsl(218, 22%, 67%) ;
+    color: hsl(204, 43%, 93%);
+    font-weight: 700;
+    height: 300px;
+    width: 400px;
+}
+#why{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1.2px;
+}
+#tutorials{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        letter-spacing: 0;
+    }
+    #full{
+        overflow: auto;
+        height: auto;
+        width: 260px;
+        margin-top: 20px;
+        padding: 0;
+    }
+    #join{
+        font-size: 20px;
+    }
+    #thirty{
+        font-size: 18px;
+        
+    }
+    .firstRow{
+        height: 220px;
+        width: 250px;
+      
+    }
+    #gain{
+      font-size: 13px; 
+      padding: 0 !important;
+      margin: 2px !important;
+    }
+    .pe-5 {
+        padding-right:0 !important;
+    }
+    .my-4 {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    #monthly{
+        font-weight: 400;
+        font-size: 18px;
+        
+    }
+    #nine{
+        font-size: 26px;
+    }
+    #why{
+        font-size: 18px;
+        
+    }
+    p-4 {
+       padding: 0; 
+    }
+    #tutorials{
+        font-size: 13px;
+    }
+    #subscri{
+        width: 100%;
+        height: 220px;
+    }
+    #us{
+        height: 220px;
+        width: 100%;
+        
+    }
+    .ms-4 {
+        margin-left: .5rem !important;
+    }
+}
+    
